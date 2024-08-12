@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST="{\"app/components/Chat.js -> @mui/material/TextField\":{\"id\":\"app/components/Chat.js -> @mui/material/TextField\",\"files\":[\"static/chunks/_app-pages-browser_node_modules_mui_material_TextField_index_js.js\"]}}"
