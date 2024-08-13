@@ -1,43 +1,20 @@
 {
   "pages": {
-    "/_not-found/page": [
-      "static/chunks/webpack-82da69a6f466bee7.js",
-      "static/chunks/fd9d1056-90960e0a7e77703c.js",
-      "static/chunks/23-d10b2ea681a4fba0.js",
-      "static/chunks/main-app-7ccccf2508068973.js",
-      "static/chunks/app/_not-found/page-88e5ec60d72eb81e.js"
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
     ],
     "/layout": [
-      "static/chunks/webpack-82da69a6f466bee7.js",
-      "static/chunks/fd9d1056-90960e0a7e77703c.js",
-      "static/chunks/23-d10b2ea681a4fba0.js",
-      "static/chunks/main-app-7ccccf2508068973.js",
-      "static/css/981a82cd9500223f.css",
-      "static/chunks/app/layout-2ac5d45e3b10ff7b.js"
-    ],
-    "/api/auth/error/page": [
-      "static/chunks/webpack-82da69a6f466bee7.js",
-      "static/chunks/fd9d1056-90960e0a7e77703c.js",
-      "static/chunks/23-d10b2ea681a4fba0.js",
-      "static/chunks/main-app-7ccccf2508068973.js",
-      "static/chunks/app/api/auth/error/page-60a21ed19338321d.js"
-    ],
-    "/page": [
-      "static/chunks/webpack-82da69a6f466bee7.js",
-      "static/chunks/fd9d1056-90960e0a7e77703c.js",
-      "static/chunks/23-d10b2ea681a4fba0.js",
-      "static/chunks/main-app-7ccccf2508068973.js",
-      "static/chunks/842-aad49cac400b8445.js",
-      "static/chunks/838-457087ee9ac7e8ac.js",
-      "static/chunks/app/page-a425aae4f848944f.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
     ],
     "/login/page": [
-      "static/chunks/webpack-82da69a6f466bee7.js",
-      "static/chunks/fd9d1056-90960e0a7e77703c.js",
-      "static/chunks/23-d10b2ea681a4fba0.js",
-      "static/chunks/main-app-7ccccf2508068973.js",
-      "static/chunks/842-aad49cac400b8445.js",
-      "static/chunks/app/login/page-83b8f3c8e9b6071a.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/login/page.js"
     ]
   }
 }
