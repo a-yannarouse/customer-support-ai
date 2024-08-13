@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "rsync -avz --exclude 'node_modules' --exclude '.git' --exclude '.env' -e \"ssh -i ~/.ssh/newyork-yanni-mbp.pem\" . ubuntu@ec2-3-142-200-164.us-east-2.compute.amazonaws.com:~/app"
+    "deploy": "rsync -avz --exclude 'node_modules' --exclude '.git' --exclude '.env' -e \"ssh -i ~/.ssh/newyork-yanni-mbp.pem\" . ubuntu@ec2-3-142-200-164.us-east-2.compute.amazonaws.com:~/app",
+    "vercel-build": "prisma generate && next build"
   },
   "dependencies": {
     "@auth/core": "^0.34.2",
@@ -32,6 +33,6 @@
     "prisma": "5.18.0"
   },
   "engines": {
-  "node": ">=16.0.0"
-}
+    "node": ">=18.x"
+  }
 }
